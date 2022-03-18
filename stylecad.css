@@ -1,0 +1,31 @@
+body{
+    background-color: blueviolet;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+}
+
+fieldset{
+  
+    
+    border-radius: 20px;
+    background-color: rgb(110, 34, 180);
+    border: none;
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    margin-left: 38%;
+    padding-top: 5%;
+    margin-bottom: 10px;
+    border-radius: 20px;
+  
+}
+
+h1{
+    margin-top: 13%;
+    margin-left: 43%;
+}
+
+textarea:focus, input:focus, select:focus {
+    outline: 0;
+}
