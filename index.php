@@ -46,7 +46,9 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
-    <link href="bootstrap-5.1.3-dist/css/boostrap.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+
+    
     <title>Login</title>
 </head>
 <body>
@@ -60,8 +62,8 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
             <label>Senha</label>   
             <input type="password" name="senha" ><br><br><br>
 
-                <button type="submit" id="botao">Entrar</button>
-                <button type="submit" class="btn btn-light">Entrar</button>
+              
+                <button type="submit" class="btn">Entrar</button>
                 <input type="reset" name="limpar" value="Limpar" id="botao">
                 
             </form>

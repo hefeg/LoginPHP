@@ -34,6 +34,12 @@ if(isset($_POST['cadastrar'])){
         }
     }
     }
+
+    if(isset($_POST['home'])){
+
+        header("Location: index.php");
+
+    }
     }
 
 
@@ -48,6 +54,7 @@ if(isset($_POST['cadastrar'])){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="stylecad.css" rel="stylesheet">
+    
     
     <title>Cadastro</title>
 </head>
@@ -66,7 +73,9 @@ if(isset($_POST['cadastrar'])){
 ><input type="e-mail" name="email"><br><br><br>
 
 <button name="cadastrar">Cadastrar</button>
-<a href="index.php"><button>Logar</button></a>
+&nbsp;&nbsp;
+<button name="home">Logar</button>
+
 
 </form>
 </fieldset>
